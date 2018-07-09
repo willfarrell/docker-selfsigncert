@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  selfsigncert:
+    build: .
+    volumes:
+      - "tls_private:/etc/ssl/private"
+      - "tls_certs:/etc/ssl/certs"
+
+volumes:
+  tls_private:
+  tls_certs:
