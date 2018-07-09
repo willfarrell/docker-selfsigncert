@@ -1,5 +1,5 @@
-# Docker: Self Signed Certificates
-Container to easily inject self signed certs into other docker containers via volumes
+# Docker: Self-Signed Certificates
+Container to easily inject self-signed certs into other docker containers via volumes
 
 ## Features
 - Creates separate CA using RSA or ECDSA
